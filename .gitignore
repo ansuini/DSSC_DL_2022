@@ -1,8 +1,9 @@
 # vscode settings
 .vscode/
 
-# cluster-specific scripts and options
+# large data files
 labs/data/
+labs/datasets
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
