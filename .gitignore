@@ -2,8 +2,7 @@
 .vscode/
 
 # cluster-specific scripts and options
-scripts/
-*.out
+labs/data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
