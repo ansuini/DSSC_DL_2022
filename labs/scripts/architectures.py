@@ -9,16 +9,16 @@ class MLP(nn.Module):
             nn.Linear(28*28, 16),
             nn.ReLU(),
 
-            nn.BatchNorm1d(num_features=16),
+            # nn.BatchNorm1d(num_features=16),
             nn.Linear(16, 32),
             nn.ReLU(),
-            nn.Dropout(p=.2), # we add a dropout here. it's referred to the previous layer (with 32 neurons)
+            # nn.Dropout(p=.2), # we add a dropout here. it's referred to the previous layer (with 32 neurons)
 
-            nn.BatchNorm1d(num_features=32),
+            # nn.BatchNorm1d(num_features=32),
             nn.Linear(32, 24),
             nn.ReLU(),
 
-            nn.BatchNorm1d(num_features=24),
+            # nn.BatchNorm1d(num_features=24),
             nn.Linear(24, 10)
         )
 
