@@ -2,7 +2,6 @@
 .vscode/
 
 # large data files
-labs/data/
 labs/datasets
 
 # Byte-compiled / optimized / DLL files
